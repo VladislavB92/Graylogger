@@ -24,7 +24,7 @@ setup(
     long_description_content_type='text/markdown',
 
     url='https://github.com/Oficerov/Graylogging',
-    download_url=f'https://github.com/Oficerov/Graylogging/archive/refs/heads/v{version}.zip',
+    download_url=f'https://github.com/Oficerov/Graylogger/archive/refs/heads/v.{version}.zip',
 
     license='MIT License',
 
