@@ -20,11 +20,20 @@
 
 Импортирование пакета:
 
-    import graylog
+    import grayloggging
 
 Использование хендлера в библиотеке **logging**:
 
     logger = logging.getLogger(logger_name)
     logger.setLevel(logging.INFO)
-    handler = GraylogHTTPHandler(host='http://yourgraylog.ru path='/gelf', port=80)
+    handler = graylog.HTTPHandler(host='yourgraylog.ru', path='/gelf', port=80)
+    handler.add_field(name='castom_field_name', content='castom_field_content')
     logger.addHandler(handler)
+
+---
+####Возможные ошибки и их решение:
+**Ошибка**:
+
+    socket.gaierror: [Errno 11001] getaddrinfo failed
+**Решение**: Скорее всего у вас указан протокол (http:// или https://) в параметре host хендлера. Надо убрать.
+
