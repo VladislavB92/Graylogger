@@ -1,3 +1,9 @@
+"""
+:authors: v.oficerov
+:license: MIT License
+:copyright: (c) 2023 v.oficerov
+"""
+
 import logging
 import socket
 import traceback
