@@ -3,6 +3,7 @@
 [![repo](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com/Oficerov/Graylogging)
 [![pypi](https://badgen.net/badge/icon/pypi?color=yellow&icon=pypi&label)](https://github.com/Oficerov/Graylogging)
 ![version](https://badgen.net/badge/Version/0.1.0/orange)
+![python](https://badgen.net/badge/Python/3.10^/orange)
 
 Однажды в рабочем процессе мне понадобилось отправлять логи из моего python приложения в graylog.
 Перебрав все более-менее нормальные библиотеки для работы с gelp http graylog, не нашел ни одной,
