@@ -2,7 +2,7 @@
 [![License: MIT](https://badgen.net/badge/license/MIT/green)](https://opensource.org/licenses/MIT)
 [![repo](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com/Oficerov/graylogger)
 [![pypi](https://badgen.net/badge/icon/pypi?color=yellow&icon=pypi&label)](https://pypi.org/project/graylogger/)
-![version](https://badgen.net/badge/Version/0.2.2/orange)
+![version](https://badgen.net/badge/Version/0.2.3/orange)
 
 Однажды в рабочем процессе мне понадобилось отправлять логи из моего python приложения в graylog.
 Перебрав все более-менее нормальные библиотеки для работы с gelp http graylog, не нашел ни одной,
@@ -15,7 +15,8 @@
  + 0.1.*: Базовый HTTP хендлер для GELF Graylog.
  + 0.2.0: Функционал добавления кастомных полей в HTTP хендлер.
  + 0.2.1: Пакет в pip пакетном менеджере.
- + 0.2.2: Пайплайн автоматической сборки пакета, выкатки релиза после пуша в мастер и прохождения всех тестов.
+ + 0.2.2: Исправление проблем с путями импортов.
+ + 0.2.3: Пайплайн автоматической сборки пакета, выкатки релиза после пуша в мастер и прохождения всех тестов.
 
 ### Примеры использования:
 Установка пакета из пакетного менеджера производится командой:
