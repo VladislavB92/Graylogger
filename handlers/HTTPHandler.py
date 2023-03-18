@@ -5,7 +5,7 @@ from http.client import HTTPConnection
 from json import dumps
 
 
-class GraylogHTTPHandler(logging.Handler):
+class HTTPHandler(logging.Handler):
     """Хендлер для отправки логов в graylog посредством http протокола"""
 
     def __init__(self, host: str, port: int = None, timeout: int = 10, path: str = '/gelf',
@@ -56,4 +56,3 @@ class GraylogHTTPHandler(logging.Handler):
                       } | self._additional_fields)
         self._connection.request("POST", self._path, body, self._headers)
         self.response = self._connection.getresponse()
-        print(self.response.status, self.response.msg)

@@ -26,7 +26,7 @@
 
     logger = logging.getLogger(logger_name)
     logger.setLevel(logging.INFO)
-    handler = graylog.HTTPHandler(host='yourgraylog.ru', path='/gelf', port=80)
+    handler = grayloggging.HTTPHandler(host='yourgraylog.ru', path='/gelf', port=80)
     handler.add_field(name='castom_field_name', content='castom_field_content')
     logger.addHandler(handler)
 
