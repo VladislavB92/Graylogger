@@ -7,13 +7,13 @@ from setuptools import setup
 :copyright: (c) 2023 v.oficerov
 """
 
-version = '0.1.0'
+version = '0.2.2'
 
 with open('README.md', encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='graylogging',
+    name='graylogger',
     version=version,
 
     author='v.oficerov',
@@ -28,7 +28,7 @@ setup(
 
     license='MIT License',
 
-    packages=['graylogging'],
+    packages=['graylogger'],
 
     classifiers=[
         'License :: OSI Approved :: MIT License',

@@ -7,5 +7,5 @@
 from .handlers.HTTPHandler import HTTPHandler
 
 __author__ = 'v.oficerov'
-__version__ = '0.1.0'
+__version__ = '0.2.2'
 __email__ = 'valeryoficerov@gmail.com'
