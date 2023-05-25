@@ -62,3 +62,4 @@ class HTTPHandler(logging.Handler):
                       } | self._additional_fields)
         self._connection.request("POST", self._path, body, self._headers)
         self.response = self._connection.getresponse()
+        self.response.read()
